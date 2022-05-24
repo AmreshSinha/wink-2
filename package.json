@@ -1,24 +1,20 @@
 {
-  "name": "wink",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "name": "wink-2",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "clean": "rm dist/bundle.js",
-    "start": "snowpack dev",
-    "build": "snowpack build"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "dependencies": {},
+  "dependencies": {
+    "next": "12.1.6",
+    "react": "18.1.0",
+    "react-dom": "18.1.0"
+  },
   "devDependencies": {
-    "snowpack": "^3.8.8",
-    "postcss-cli": "^9.1.0",
-    "postcss": "^8.4.14",
-    "autoprefixer": "^10.4.7",
-    "@snowpack/plugin-postcss": "^1.4.3",
-    "@snowpack/plugin-sass": "^1.4.0",
-    "prettier": "^2.6.2"
+    "eslint": "8.16.0",
+    "eslint-config-next": "12.1.6"
   }
 }
